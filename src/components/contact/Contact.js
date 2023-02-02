@@ -58,9 +58,9 @@ const backgroundStyle = {
     backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${blackBg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    backgroundRepeat: 'noRepeat',
-    minHeight: '40rem',
-    // objectFit: 'cover'
+    // backgroundRepeat: 'noRepeat',
+    // minHeight: '40rem',
+    objectFit: 'cover'
 }
 
 export default Contact;
