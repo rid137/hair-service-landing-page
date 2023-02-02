@@ -55,7 +55,8 @@ const Contact = () => {
 
 
 const backgroundStyle = {
-    backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${blackBg})`,
+    // backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${blackBg})`,
+    backgroundImage: `url(${blackBg}`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     // backgroundRepeat: 'noRepeat',
