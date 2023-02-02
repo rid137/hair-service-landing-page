@@ -8,8 +8,8 @@ import { BsFillClockFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div name='contact'  className="text-white  w-screen -mt-32 bg-cover bg-center" style={{backgroundImage: `url(${blackBg})`}}> 
-        <div className="grid md:grid-cols-2 md:gap-10 mt-20 container mx-auto">
+    <div name='contact' className='' > 
+        <div className="text-white  w-screen -mt-32 bg-cover bg-center grid md:grid-cols-2 md:gap-10  container mx-auto" style={{backgroundImage: `url(${blackBg})`}} >
             <div className="flex flex-col mx-4 md:mx-0">
                 <h2 className='text-[3rem] font-bold overflow-hidden'>Contact Us</h2>
                 <div className="flex items-center text-[1.8rem] mt-12">
