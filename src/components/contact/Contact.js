@@ -8,7 +8,7 @@ import { BsFillClockFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div name='contact' style={backgroundStyle} className="text-white  w-screen  -mt-32"> 
+    <div name='contact' style={backgroundStyle} className="text-white  w-screen  "> 
         <div className="grid md:grid-cols-2 md:gap-10 mt-20 container mx-auto">
             <div className="flex flex-col mx-4 md:mx-0">
                 <h2 className='text-[3rem] font-bold overflow-hidden'>Contact Us</h2>
