@@ -8,8 +8,8 @@ import { BsFillClockFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div name='contact' className='' > 
-        <div className="text-white  w-screen -mt-32 bg-cover bg-center grid md:grid-cols-2 md:gap-10  container mx-auto" style={{backgroundImage: `url(${blackBg})`}} >
+    <div name='contact' style={backgroundStyle} className="text-white  w-screen  pb-40"> 
+        <div className="grid md:grid-cols-2 md:gap-10 mt-20 container mx-auto">
             <div className="flex flex-col mx-4 md:mx-0">
                 <h2 className='text-[3rem] font-bold overflow-hidden'>Contact Us</h2>
                 <div className="flex items-center text-[1.8rem] mt-12">
@@ -55,13 +55,12 @@ const Contact = () => {
 
 
 const backgroundStyle = {
-    // backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${blackBg})`,
-    backgroundImage: `url(${blackBg}`,
+    backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${blackBg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    // backgroundRepeat: 'noRepeat',
-    // minHeight: '40rem',
-    objectFit: 'cover'
+    backgroundRepeat: 'noRepeat',
+    minHeight: '40rem',
+    // objectFit: 'cover'
 }
 
 export default Contact;
