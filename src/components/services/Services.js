@@ -2,6 +2,7 @@ import imgList1 from '../../asset/imgList1.jpg'
 import imgList6 from '../../asset/imgList6.jpg'
 import imgList2 from '../../asset/imgList2.jpg'
 import imgList5 from '../../asset/imgList5.jpg'
+import hair1 from '../../asset/hair1.jpg';
 
 
 const Services = () => {
@@ -11,7 +12,7 @@ const Services = () => {
 
       <div className=' lg:mt-12 container mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-4'>
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList5} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white uppercase">Permanent Color</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic  text-center'>
@@ -22,7 +23,7 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList2} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white">WASH, RETWIST AND STYLE</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic text-center'>
@@ -33,7 +34,7 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white uppercase">DETOX TREATMENT</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic text-center'>
@@ -44,7 +45,7 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList6} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white uppercase">HOT OIL TREATMENT</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic text-center'>
@@ -55,7 +56,7 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList2} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white">WASH, RETWIST AND STYLE</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic text-center'>
@@ -67,7 +68,7 @@ const Services = () => {
 
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList6} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white uppercase">HOT OIL TREATMENT</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic text-center'>
@@ -78,7 +79,7 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList5} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white uppercase">Permanent Color</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic  text-center'>
@@ -89,7 +90,7 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col items-center mt-10 lg:mt-0">
-            <img src={imgList1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
+            <img src={hair1} className='w-[12rem] h-[12rem] object-cover rounded-full border-8 border-baseColor' alt="" />
             <p className="mt-7 text-center text-2xl tracking-wide font-bold text-white uppercase">DETOX TREATMENT</p>
             <p className="mt-6 text-center font-bold text-2xl text-baseColor">$225 and Up</p>
             <p className='mt-5 text-gray-500 w-80 lg:w-[14rem] italic text-center'>

@@ -5,6 +5,8 @@ import  imgList3  from '../../asset/imgList3.jpg';
 import  imgList4  from '../../asset/imgList4.jpg';
 import  imgList5  from '../../asset/imgList5.jpg';
 import  imgList6  from '../../asset/imgList6.jpg';
+import hair1 from '../../asset/hair1.jpg';
+
 
 const Bookings = () => {
   return (
@@ -20,7 +22,7 @@ const Bookings = () => {
                 <div className=" cursor-pointer overflow-y-hidden group h-[30rem] w-[30rem] md:h-[20rem] md:w-[20rem] [perspective:1000px] ">
                     <div className="relative h-full w-full  shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className='w-full h-full object-cover shadow-xl shadow-black/40' src={imgList1} alt="" />
+                            <img className='w-full h-full object-cover shadow-xl shadow-black/40' src={hair1} alt="" />
                         </div>
                         <div className="absolute inset-0 h-full w-full  bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
                             <div className="flex min-h-full flex-col items-center justify-center">
@@ -36,7 +38,7 @@ const Bookings = () => {
                 <div className="mt-10 md:mt-0 cursor-pointer overflow-y-hidden group h-[30rem] w-[30rem] md:h-[20rem] md:w-[20rem] [perspective:1000px] ">
                     <div className="relative h-full w-full  shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={imgList2} alt="" />
+                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={hair1} alt="" />
                         </div>
                         <div className="absolute inset-0 h-full w-full  bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
                             <div className="flex min-h-full flex-col items-center justify-center">
@@ -52,7 +54,7 @@ const Bookings = () => {
                 <div className="mt-10 md:mt-10  lg:mt-0 cursor-pointer overflow-y-hidden group h-[30rem] w-[30rem] md:h-[20rem] md:w-[20rem] [perspective:1000px] ">
                     <div className="relative h-full w-full  shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className='w-full h-full  object-cover shadow-xl shadow-black/40' src={imgList3} alt="" />
+                            <img className='w-full h-full  object-cover shadow-xl shadow-black/40' src={hair1} alt="" />
                         </div>
                         <div className="absolute inset-0 h-full w-full  bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
                             <div className="flex min-h-full flex-col items-center justify-center">
@@ -68,7 +70,7 @@ const Bookings = () => {
                 <div className="mt-10 md:mt-10 lg:mt-0 cursor-pointer overflow-y-hidden group h-[30rem] w-[30rem] md:h-[20rem] md:w-[20rem] [perspective:1000px] ">
                     <div className="relative h-full w-full  shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={imgList4} alt="" />
+                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={hair1} alt="" />
                         </div>
                         <div className="absolute inset-0 h-full w-full  bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
                             <div className="flex min-h-full flex-col items-center justify-center">
@@ -84,7 +86,7 @@ const Bookings = () => {
                 <div className="mt-10 md:mt-10 lg:mt-0 cursor-pointer overflow-y-hidden group h-[30rem] w-[30rem] md:h-[20rem] md:w-[20rem] [perspective:1000px] ">
                     <div className="relative h-full w-full  shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={imgList5} alt="" />
+                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={hair1} alt="" />
                         </div>
                         <div className="absolute inset-0 h-full w-full  bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
                             <div className="flex min-h-full flex-col items-center justify-center">
@@ -100,7 +102,7 @@ const Bookings = () => {
                 <div className="mt-10 md:mt-10 lg:mt-0 cursor-pointer overflow-y-hidden group h-[30rem] w-[30rem] md:h-[20rem] md:w-[20rem] [perspective:1000px] ">
                     <div className="relative h-full w-full  shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={imgList6} alt="" />
+                            <img className='w-full h-full   object-cover shadow-xl shadow-black/40' src={hair1} alt="" />
                         </div>
                         <div className="absolute inset-0 h-full w-full  bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)]  [backface-visibility:hidden]">
                             <div className="flex min-h-full flex-col items-center justify-center">
@@ -117,7 +119,7 @@ const Bookings = () => {
 
             <div className="w-screen mt-48 container mx-auto grid gap-6 md:grid-cols-2">
                 <div className='mx-4 md:mx-0'>
-                    <img src={blackBg} className='md:h-[35rem] w-[30rem]' alt="" />
+                    <img src={hair1} className='md:h-[35rem] w-[30rem]' alt="" />
                 </div>
                 <div className='mx-4 md:mx-0'>
                     <div className="flex flex-col items-end">

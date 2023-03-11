@@ -1,4 +1,6 @@
 import  blackBg  from '../../asset/blackBg.jpg';
+import hair1 from '../../asset/hair1.jpg';
+
 
 const WhyUs = () => {
   return (
@@ -25,7 +27,7 @@ const WhyUs = () => {
             </div>
             
             <div className=' mx-4 md:mx-0 mt-16 md:mt:0'>
-                <img src={blackBg} className='w-full h-full' alt="" />
+                <img src={hair1} className='w-full h-full' alt="" />
             </div>
         
         </div>
