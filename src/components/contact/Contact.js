@@ -1,6 +1,4 @@
-import  blackBg1  from '../../asset/blackBg1.jpeg';
-import  blackBg  from '../../asset/blackBg.jpg';
-import hair1 from '../../asset/hair1.jpg';
+import hair7 from '../../asset/hair7.jpg';
 import { IoCall } from "react-icons/io5";
 import { IoLocationSharp } from "react-icons/io5";
 import { BsFillClockFill } from "react-icons/bs";
@@ -56,7 +54,7 @@ const Contact = () => {
 
 
 const backgroundStyle = {
-    backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${hair1})`,
+    backgroundImage: `linear-gradient( rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),url(${hair7})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'noRepeat',

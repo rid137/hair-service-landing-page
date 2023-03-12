@@ -26,40 +26,40 @@ const Abouts = () => {
         </div>
 
         <div className="flex flex-col w-full mt-8 lg:mt-0">
-            <div className="p-5 mx-4 md:mx-0 flex flex-col bg-baseColor rounded-md">
-                <ImQuotesLeft className="text-3xl mb-2" />
-                <p className="text-black mb-2 text-lg leading-[1.5rem] tracking-wide">
+            <div className="p-5 mx-4 md:mx-0 flex flex-col bg-baseColor rounded-md cursor-default border-transparent hover:border-baseColor border-2 hover:bg-transparent transition-all duration-300 text-black hover:text-white">
+                <ImQuotesLeft className="text-white text-3xl mb-2" />
+                <p className=" mb-2 text-lg leading-[1.5rem] tracking-wide">
                     Proin sed libero enim sed faucibus 
                     turpis. At imperdiet dui accumsan sit 
                     amet nulla facilisi morbi tempus. Ut 
                     sem nulla pharetra diam sit amet nisl. 
                     Enim nunc
                 </p>
-                <p className="text-black text-2xl font-bold">Celia Almeda</p>
+                <p className=" text-2xl font-bold">Celia Almeda</p>
             </div>
 
-            <div className="mt-7 p-5 mx-4 md:mx-0 flex flex-col bg-baseColor rounded-md">
-                <ImQuotesLeft className="text-3xl mb-2" />
-                <p className="text-black mb-2 text-lg leading-[1.5rem] tracking-wide">
+            <div className="mt-7 p-5 mx-4 md:mx-0 flex flex-col bg-baseColor rounded-md cursor-default border-transparent hover:border-baseColor border-2 hover:bg-transparent transition-all duration-300 text-black hover:text-white">
+                <ImQuotesLeft className="text-white text-3xl mb-2" />
+                <p className="mb-2 text-lg leading-[1.5rem] tracking-wide">
                     Proin sed libero enim sed faucibus 
                     turpis. At imperdiet dui accumsan sit 
                     amet nulla facilisi morbi tempus. Ut 
                     sem nulla pharetra diam sit amet nisl. 
                     Enim nunc
                 </p>
-                <p className="text-black text-2xl font-bold">Celia Almeda</p>
+                <p className="text-2xl font-bold">Celia Almeda</p>
             </div>
 
-            <div className="mt-7 p-5 mx-4 md:mx-0 flex flex-col bg-baseColor rounded-md">
-                <ImQuotesLeft className="text-3xl mb-2" />
-                <p className="text-black mb-2 text-lg leading-[1.5rem] tracking-wide">
+            <div className="mt-7 p-5 mx-4 md:mx-0 flex flex-col bg-baseColor rounded-md cursor-default border-transparent hover:border-baseColor border-2 hover:bg-transparent transition-all duration-300 text-black hover:text-white">
+                <ImQuotesLeft className="text-white text-3xl mb-2" />
+                <p className="mb-2 text-lg leading-[1.5rem] tracking-wide">
                     Proin sed libero enim sed faucibus 
                     turpis. At imperdiet dui accumsan sit 
                     amet nulla facilisi morbi tempus. Ut 
                     sem nulla pharetra diam sit amet nisl. 
                     Enim nunc
                 </p>
-                <p className="text-black text-2xl font-bold">Celia Almeda</p>
+                <p className="text-2xl font-bold">Celia Almeda</p>
             </div>
 
         </div>

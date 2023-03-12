@@ -13,9 +13,9 @@ function App() {
       {/* <div className="text-4xl">hello</div> */}
       <Navbar />
       <HeroSection />
-      <Services />
-      <Abouts />
+      <Services />     
       <Bookings />
+       <Abouts />
       <WhyUs />
       <Store />
       <Contact /> 

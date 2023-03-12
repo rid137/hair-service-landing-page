@@ -13,8 +13,8 @@
     overflow-x: hidden;
 }
 
-body {
-    /* overflow-x: hidden; */
+button {
+    transition: all .5s ease;
 }
 
 /* html {

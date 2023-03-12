@@ -1,4 +1,6 @@
 import  backBg2  from '../../asset/backBg2.jpeg';
+import { Link, animateScroll as scroll, } from 'react-scroll'
+
 
 const HeroSection = () => {
   return (
@@ -13,8 +15,9 @@ const HeroSection = () => {
                 purus quis elementum.
             </p>
             <div className='flex flex-col md:flex-row items-start justify-start text-left mt-10'>
-                <button className='text-white border-2 border-white text-center px-8 pb-2 pt-1 rounded-md  text-2xl tracking-wider hover:bg-white hover:text-black mr-6'>Services</button>
-                <button className='text-black  text-center mt-5 md:mt-0 md:px-8 px-6 pb-2 pt-2 rounded-md  text-2xl tracking-wider bg-baseColor hover:bg-white hover:text-black'>Book Now</button>
+                <Link className='text-white cursor-pointer border-2 border-white text-center px-8 pb-2 pt-1 rounded-md  text-2xl tracking-wider hover:bg-white hover:text-black mr-6 transition-all duration-200'  to="services" smooth={true} offset={50} duration={300}> Services</Link>
+                <Link className='text-black cursor-pointer  text-center mt-5 md:mt-0 md:px-8 px-6 pb-2 pt-2 rounded-md  text-2xl tracking-wider bg-baseColor hover:bg-white hover:text-black' to="bookings" smooth={true} offset={50} duration={300}>Book Now</Link>
+                {/* <button className='text-black  text-center mt-5 md:mt-0 md:px-8 px-6 pb-2 pt-2 rounded-md  text-2xl tracking-wider bg-baseColor hover:bg-white hover:text-black'>Book Now</button> */}
             </div>
         </div>
         
