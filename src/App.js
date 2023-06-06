@@ -15,7 +15,7 @@ function App() {
       <HeroSection />
       <Services />     
       <Bookings />
-       <Abouts />
+      <Abouts />
       <WhyUs />
       <Store />
       <Contact /> 
